@@ -21,6 +21,7 @@
 		FDF33093197D861A00CA8C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF33075197D861A00CA8C85 /* UIKit.framework */; };
 		FDF3309B197D861A00CA8C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF33099197D861A00CA8C85 /* InfoPlist.strings */; };
 		FDF3309D197D861A00CA8C85 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3309C197D861A00CA8C85 /* Git_TestTests.m */; };
+		FDF330A8197DBDEE00CA8C85 /* DFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF330A7197DBDEE00CA8C85 /* DFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FDF33098197D861A00CA8C85 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FDF3309A197D861A00CA8C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDF3309C197D861A00CA8C85 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FDF330A6197DBDEE00CA8C85 /* DFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTest.h; sourceTree = "<group>"; };
+		FDF330A7197DBDEE00CA8C85 /* DFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FDF33083197D861A00CA8C85 /* Main.storyboard */,
 				FDF33086197D861A00CA8C85 /* DFViewController.h */,
 				FDF33087197D861A00CA8C85 /* DFViewController.m */,
+				FDF330A6197DBDEE00CA8C85 /* DFTest.h */,
+				FDF330A7197DBDEE00CA8C85 /* DFTest.m */,
 				FDF33089197D861A00CA8C85 /* Images.xcassets */,
 				FDF33078197D861A00CA8C85 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF33082197D861A00CA8C85 /* DFAppDelegate.m in Sources */,
+				FDF330A8197DBDEE00CA8C85 /* DFTest.m in Sources */,
 				FDF33088197D861A00CA8C85 /* DFViewController.m in Sources */,
 				FDF3307E197D861A00CA8C85 /* main.m in Sources */,
 			);
